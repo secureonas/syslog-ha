@@ -49,7 +49,10 @@ Ansible ni potreben vnaprej — `bootstrap-and-run.sh` ga namesti sam.
 ## Hitra uporaba (priporočeno)
 
 ```bash
-git clone https://github.com/<uporabnik>/ansible-syslog-keepalived.git
+curl -L -o ansible-syslog-keepalived.zip "https://github.com/secureonas/syslog-ha/blob/main/ansible-syslog-keepalived.zip?raw=true"
+
+opcijsko
+git clone https://github.com/secureonas/ansible-syslog-keepalived.git
 cd ansible-syslog-keepalived
 sudo ./bootstrap-and-run.sh
 ```
